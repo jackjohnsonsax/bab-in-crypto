@@ -1,0 +1,40 @@
+grid size per signal: 48
+funding done
+downside beta done
+double sorts done
+horizons done
+
+768 configurations -> results/search2_all.csv
+sharpe: max 1.401  median 0.371  >1.0 2.6%  >1.5 0.0%
+
+top 20:
+      signal   win market rebal scheme     minvol timing   sharpe      ann      vol     sh_h1    sh_h2  turnover
+     funding  7.00    NaN     W   rank 20000000.0   none 1.401419 0.349228 0.249196  1.197794 1.644366 79.140966
+     funding  7.00    NaN     W   rank  5000000.0   none 1.233352 0.283493 0.229855  0.863818 1.672090 76.789503
+  beta+idvol  0.75    NaN     M    q20 20000000.0 fund63 1.148415 0.348074 0.303091  0.986026 1.293335 13.399379
+beta+funding  0.75    NaN     W   rank  5000000.0   none 1.136999 0.289566 0.254676  0.880213 1.465916 39.779416
+  beta+idvol  0.75    NaN     M    q20 20000000.0 fund90 1.136712 0.329770 0.290108  1.003500 1.255886 12.405542
+  beta+idvol  0.25    NaN     M    q20 50000000.0   none 1.121068 0.515159 0.459525  0.885559 1.367279 20.333289
+     funding  7.00    NaN     W   rank 20000000.0 fund90 1.118780 0.207536 0.185502  0.164230 1.817235 53.811516
+  beta+idvol  0.25    NaN     M    q20 50000000.0 fund90 1.091080 0.412006 0.377613  0.836710 1.318661 13.275176
+  beta+idvol  0.25    NaN     M    q20 50000000.0 fund63 1.084949 0.425848 0.392505  0.831547 1.307062 14.450253
+  beta+idvol  0.50    NaN     M    q20 50000000.0   none 1.080065 0.485350 0.449372  0.993639 1.188493 20.481308
+     funding  7.00    NaN     W    q20  5000000.0   none 1.075618 0.332074 0.308728  0.733242 1.452983 96.837965
+     funding  7.00    NaN     W   rank 50000000.0   none 1.055406 0.321309 0.304441  1.142452 0.960378 80.616169
+     funding 21.00    NaN     W   rank  5000000.0   none 1.047083 0.253421 0.242025  0.844167 1.286411 41.847802
+beta+funding  0.25    NaN     M    q20 20000000.0 fund90 1.045672 0.306397 0.293014  0.281431 1.716686 14.310631
+beta+funding  0.75    NaN     W   rank 20000000.0   none 1.038549 0.309306 0.297825  1.085697 0.989179 44.403983
+beta+funding  0.25    NaN     M    q20 20000000.0 fund63 1.023281 0.308932 0.301903  0.394667 1.557656 15.500315
+  beta+idvol  0.75    NaN     M    q20 50000000.0   none 1.022434 0.476368 0.465916  1.048518 1.004129 20.571055
+     funding  7.00    NaN     W   rank 20000000.0 fund63 1.020511 0.195128 0.191206 -0.111338 1.859639 56.900939
+     funding  7.00    NaN     W   rank 20000000.0 disp63 1.006809 0.329143 0.326917  0.195238 1.813196 97.002281
+  beta+idvol  0.50    NaN     M    q20 50000000.0 fund90 1.003217 0.348299 0.347182  1.104548 0.910570 12.957914
+
+best by signal:
+                max  median  size
+signal                           
+beta+funding  1.137   0.615   144
+beta+idvol    1.148   0.716   144
+beta_horizon  0.997   0.276   144
+dnbeta        0.606  -0.376   192
+funding       1.401   0.173   144
